@@ -1,0 +1,44 @@
+{
+  "properties": {
+    "callRateLimit": null,
+    "capabilities": {
+      "embeddings": "true",
+      "embeddingsMaxInputs": "2048"
+    },
+    "model": {
+      "callRateLimit": null,
+      "format": "OpenAI",
+      "name": "text-embedding-ada-002",
+      "source": null,
+      "version": "2"
+    },
+    "raiPolicyName": null,
+    "rateLimits": [
+      {
+        "count": 1.0,
+        "dynamicThrottlingEnabled": null,
+        "key": "request",
+        "matchPatterns": null,
+        "minCount": null,
+        "renewalPeriod": 10.0
+      },
+      {
+        "count": 1000.0,
+        "dynamicThrottlingEnabled": null,
+        "key": "token",
+        "matchPatterns": null,
+        "minCount": null,
+        "renewalPeriod": 60.0
+      }
+    ],
+    "scaleSettings": null,
+    "versionUpgradeOption": "OnceNewDefaultVersionAvailable"
+  },
+  "sku": {
+    "capacity": 1,
+    "family": null,
+    "name": "Standard",
+    "size": null,
+    "tier": null
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "properties": {
+    "model": {
+      "format": "OpenAI",
+      "name": "text-embedding-ada-002",
+      "version": "2"
+    }
+  },
+  "sku": {
+    "capacity": 1,
+    "name": "Standard"
+  }
+}
